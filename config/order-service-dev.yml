@@ -2,10 +2,10 @@ spring:
   application:
     name: order-service
     rabbitmq:
-    host: 192.168.233.128
-    port: 5672
-    username: admin
-    password: admin
+       host: 192.168.233.128
+       port: 5672
+       username: admin
+       password: admin
   cloud:
    config:
      override-none: true
